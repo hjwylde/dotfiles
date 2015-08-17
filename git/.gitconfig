@@ -1,0 +1,32 @@
+[user]
+    name = Henry J. Wylde
+    email = public@hjwylde.com
+    signingkey = 20EBA79A
+
+[push]
+    default = simple
+
+[merge]
+    tool = vimdiff
+
+[diff]
+    algorithm = minimal
+
+[alias]
+    gl = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
+    l = log --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %<(15,trunc)%an %C(red dim)%d'
+    rs = remote show origin
+    s = status -s
+
+    gconfig = config --global
+    sconfig = config --system
+    unstage = reset HEAD
+    uncommit = reset --soft HEAD^
+    dstaged = diff --cached
+    dlast = diff HEAD~1 HEAD
+    glog = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
+    glog50 = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(50,trunc)%s%Creset %an %C(red dim)%d'
+    glog80 = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
+    gme = log --author='Henry J. Wylde' --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
+    me = log --author='Henry J. Wylde' --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %<(15,trunc)%an %C(red dim)%d'
+

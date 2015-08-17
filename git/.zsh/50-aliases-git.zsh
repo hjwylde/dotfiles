@@ -1,0 +1,5 @@
+
+# Aliases
+
+alias g='git'
+

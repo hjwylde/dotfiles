@@ -1,0 +1,27 @@
+"asus-kbd-backlight down"
+  XF86KbdBrightnessDown
+
+"asus-kbd-backlight up"
+  XF86KbdBrightnessUp
+
+"if [ "$(printf '%.0f' $(xbacklight -get))" -gt "20" ]; then xbacklight -dec 20; fi"
+  XF86MonBrightnessDown
+
+"xbacklight -inc 20"
+  XF86MonBrightnessUp
+
+"display-toggle > /dev/null"
+  XF86Display
+
+"touchpad-toggle"
+  XF86TouchpadToggle
+
+"amixer set Master toggle"
+  XF86AudioMute
+
+"amixer -M set Master 5%-"
+  XF86AudioLowerVolume
+
+"amixer -M set Master 5%+"
+  XF86AudioRaiseVolume
+
