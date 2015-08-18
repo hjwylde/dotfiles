@@ -1,6 +1,7 @@
 #!/bin/sh
 
 DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+HOST=$(cat /etc/hostname)
 
 echo "-d $DIR" > ~/.stowrc
 echo "-t $HOME/" >> ~/.stowrc
