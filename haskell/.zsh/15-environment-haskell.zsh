@@ -1,8 +1,8 @@
 
 # Environment variables for Haskell
 
-if [[ $PATH != *".cabal/bin"* ]]
+if [[ $PATH != *".local/bin"* ]]
 then
-    export PATH=$PATH:~/.cabal/bin
+    export PATH=$PATH:~/.local/bin
 fi
 
