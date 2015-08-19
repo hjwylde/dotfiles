@@ -13,7 +13,7 @@ case $HOST in
     abra)
         stow gradle haskell i3 rtorrent ruby xorg
         ;;
-    poliwhirl)
+    poliwrath)
         stow ruby www
         ;;
 esac
