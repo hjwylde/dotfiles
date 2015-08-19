@@ -11,7 +11,7 @@ stow $HOST git vim zsh
 
 case $HOST in
     abra)
-        stow gradle i3 rtorrent ruby xorg
+        stow gradle haskell i3 rtorrent ruby xorg
         ;;
     poliwhirl)
         stow ruby www

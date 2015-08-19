@@ -1,5 +1,5 @@
 
-# Environment variables for ruby
+# Environment variables for Ruby
 
 if [[ $PATH != *".rbenv/shims"* ]]
 then
