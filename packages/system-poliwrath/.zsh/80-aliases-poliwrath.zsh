@@ -1,5 +1,5 @@
 
-# Aliases for poliwhirl
+# Aliases for poliwrath
 
 # Binaries
 alias ls='ls -FG'

@@ -1,5 +1,5 @@
 
-# Prompt for poliwhirl
+# Prompt for poliwrath
 
 # Perform function / command substitutions in the prompt
 setopt PROMPT_SUBST

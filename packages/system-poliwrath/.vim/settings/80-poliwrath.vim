@@ -1,5 +1,5 @@
 
-" Configuration for poliwhirl
+" Configuration for poliwrath
 
 " Display
 set background=light

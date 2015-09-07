@@ -1,5 +1,5 @@
 
-# Environment variables for poliwhirl
+# Environment variables for poliwrath
 
 if [[ $PATH != *"$(brew --prefix coreutils)/libexec/gnubin"* ]]
 then
