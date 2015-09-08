@@ -8,25 +8,13 @@ else
     host=$(cat /etc/hostname)
 fi
 
-echo $host
-
 echo "-d $dir/" > ~/.stowrc
 echo "-t $HOME/" >> ~/.stowrc
 echo '-v' >> ~/.stowrc
 
 if [ -d "$dir/system-$host" ]; then
-    echo "hello"
     stow "system-$host"
 fi
 
 stow git vim zsh
-
-case $host in
-    abra)
-        stow gradle haskell i3 rtorrent ruby xorg
-        ;;
-    poliwrath)
-        stow ruby www
-        ;;
-esac
 

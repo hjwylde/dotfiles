@@ -1,5 +1,0 @@
-
-# Aliases
-
-alias gradlew='./gradlew'
-
