@@ -1,8 +1,5 @@
 
-" Add Vundle to the runtime path
 set rtp+=~/.vim/bundle/vundle.vim
-
-" Load all the vundles
 
 filetype off
 

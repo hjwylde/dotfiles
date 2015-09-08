@@ -1,5 +1,5 @@
 
-"" Configuration for snorlax
+" Configuration for snorlax
 
 " Colour scheme
 set background=dark

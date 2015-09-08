@@ -30,7 +30,7 @@ set nowb
 " ================ Persistent Undo ==================
 
 " Keep undo history across sessions, by storing in a file
-silent !mkdir ~/.vimhistory/ > /dev/null 2>&1
+silent !mkdir ~/.vimhistory/ &> /dev/null
 set undodir=~/.vimhistory/
 set undofile
 
@@ -62,7 +62,7 @@ set shiftround
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
-set linebreak    "Wrap lines at convenient points
+set linebreak " Wrap lines at convenient points
 
 
 " ================ Folds ============================

@@ -1,5 +1,5 @@
 
-"" Configuration for electabuzz
+" Configuration for electabuzz
 
 " Colour scheme
 set background=dark

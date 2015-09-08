@@ -1,5 +1,5 @@
 
-# Prompt for abra
+# Prompt for electabuzz
 
 # Perform function / command substitutions in the prompt
 setopt PROMPT_SUBST

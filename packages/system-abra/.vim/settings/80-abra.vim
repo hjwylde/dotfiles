@@ -1,5 +1,5 @@
 
-"" Configuration for abra
+" Configuration for abra
 
 " Colour scheme
 set background=dark
