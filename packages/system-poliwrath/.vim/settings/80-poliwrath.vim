@@ -1,14 +1,10 @@
 
-" Configuration for poliwrath
+" Settings for poliwrath
 
-" Display
-set background=light
 let g:solarized_termcolors = 256
 colorscheme solarized
 
-" Line numbers
-set nu
+set number
 
-" Indentation
-autocmd FileType html,javascript,ruby setlocal shiftwidth=2 softtabstop=2 tabstop=2
+autocmd FileType css,eruby,html,javascript,ruby,sass,scss setlocal shiftwidth=2 softtabstop=2 tabstop=2
 

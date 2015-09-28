@@ -1,7 +1,6 @@
 
-" Configuration for abra
+" Settings for abra
 
-" Colour scheme
 set background=dark
 colorscheme solarized
 

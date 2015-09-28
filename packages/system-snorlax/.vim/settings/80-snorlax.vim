@@ -1,7 +1,6 @@
 
-" Configuration for snorlax
+" Settings for snorlax
 
-" Colour scheme
 set background=dark
 colorscheme solarized
 

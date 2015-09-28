@@ -1,7 +1,6 @@
 
-" Configuration for electabuzz
+" Settings for electabuzz
 
-" Colour scheme
 set background=dark
 colorscheme solarized
 
