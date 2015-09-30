@@ -3,6 +3,9 @@
     email = public@hjwylde.com
     signingkey = 20EBA79A
 
+[core]
+    excludesFile = ~/.gitignore-global
+
 [push]
     default = simple
 
