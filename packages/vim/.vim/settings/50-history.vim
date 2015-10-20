@@ -8,3 +8,6 @@ silent !mkdir ~/.vimhistory/ &> /dev/null
 set undodir=~/.vimhistory/
 set undofile
 
+set noswapfile
+set nowritebackup
+

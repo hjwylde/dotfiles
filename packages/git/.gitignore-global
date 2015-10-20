@@ -1,4 +1,5 @@
 # vim
+*.swo
 *.swp
 
 # JetBrains IDE's
