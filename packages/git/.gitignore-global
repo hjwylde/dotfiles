@@ -1,2 +1,8 @@
+# vim
 *.swp
+
+# JetBrains IDE's
+.idea/
+
+*.iml
 
