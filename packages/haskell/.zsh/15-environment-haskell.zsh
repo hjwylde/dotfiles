@@ -6,3 +6,5 @@ if [[ $PATH != *".local/bin"* ]]; then
     export PATH=$PATH:~/.local/bin
 fi
 
+export STACK_LOCK=true
+
