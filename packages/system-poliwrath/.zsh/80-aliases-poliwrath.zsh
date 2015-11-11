@@ -4,7 +4,6 @@
 # Binaries
 alias ls='ls -FG'
 alias pg_ctl='pg_ctl -D /usr/local/var/postgres'
-alias redis-server='redis-server /usr/local/etc/redis.conf'
 alias rm='rm -v'
 
 # Powershop
