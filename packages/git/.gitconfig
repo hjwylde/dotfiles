@@ -18,10 +18,9 @@
 [alias]
     dlast       = diff HEAD~1 HEAD
     dstaged     = diff --cached
-    gl          = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
-    gme         = log --author='Henry J. Wylde' --graph --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %an %C(red dim)%d'
-    l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %<(15,trunc)%an %C(red dim)%d'
-    me          = log --author='Henry J. Wylde' --date=short --pretty=format:'%C(yellow)%h %C(blue bold)%ad %C(white)%<(80,trunc)%s%Creset %<(15,trunc)%an %C(red dim)%d'
+    gl          = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
+    l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
+    me          = log --author='Henry J. Wylde' --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     s           = status -s
     uncommit    = reset --soft HEAD^
     unstage     = reset HEAD

@@ -2,9 +2,9 @@
 # Aliases for poliwrath
 
 # Binaries
-alias ls='ls -FG'
+alias ls='ls -F --color=auto'
 alias pg_ctl='pg_ctl -D /usr/local/var/postgres'
-alias rm='rm -v'
+alias rm='rm -Iv'
 
 # Powershop
 alias gps='cd ~/git/powerapps/powershop'

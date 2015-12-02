@@ -6,6 +6,6 @@ The dotfiles are structured into _packages_ that may be installed using
     [stow](http://www.gnu.org/software/stow/ "stow").
 
 The packages named after Pokémon represent system-specific dotfiles.
-An initialisation script is provided, `setup` which install the system, `git`, `vim` and `zsh`
-    packages.
+An initialisation script is provided, `setup` which installs the `system-pokémon`, `git`, `vim` and
+    `zsh` packages.
 
