@@ -14,5 +14,5 @@ alias ll='ls -l'
 alias l1='ls -1'
 
 # Misc
-alias todos='grep -r TODO .'
+alias todos='grep -r "TODO (hjw)" .'
 
