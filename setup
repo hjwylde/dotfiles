@@ -2,10 +2,13 @@
 
 dir=$(cd "$(dirname "${BASH_SOURCE[0]}")/packages" && pwd)
 
-if [ "$(uname -s)" == "Darwin" ]; then
+if which -s scutil; then
     host=$(scutil --get ComputerName)
-else
+elif [ -f /etc/hostname ]; then
     host=$(cat /etc/hostname)
+else
+    echo "Uh oh, I don't know what hostname to use" >&2
+    exit 1
 fi
 
 echo "-d $dir/" > ~/.stowrc

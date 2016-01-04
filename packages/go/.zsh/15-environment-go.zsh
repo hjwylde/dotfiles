@@ -1,5 +1,6 @@
 
 # Environment variables for Go
 
-export GOPATH=~/.go:~/git/qux-lang/meta-api
+export GOPATH=~/.go
+export PATH=$PATH:$GOPATH/bin
 
