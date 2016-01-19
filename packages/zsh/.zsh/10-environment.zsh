@@ -1,4 +1,3 @@
-
 # Environment variables
 
 if [[ $PATH != *"$HOME/bin"* ]]; then
@@ -6,4 +5,3 @@ if [[ $PATH != *"$HOME/bin"* ]]; then
 fi
 
 export EDITOR=vim
-

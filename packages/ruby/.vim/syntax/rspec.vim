@@ -1,8 +1,5 @@
-"
 " An rspec syntax file
 " Originally from http://www.vim.org/scripts/script.php?script_id=2286
-"
-"
 
 runtime! syntax/ruby.vim
 unlet! b:current_syntax

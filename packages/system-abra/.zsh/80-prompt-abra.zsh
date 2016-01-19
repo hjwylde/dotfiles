@@ -1,4 +1,3 @@
-
 # Prompt for abra
 
 # Perform function / command substitutions in the prompt
@@ -52,4 +51,3 @@ function prompt_update() {
 
 # Update the prompt now
 prompt_update
-

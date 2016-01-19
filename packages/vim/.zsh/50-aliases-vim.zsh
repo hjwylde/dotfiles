@@ -1,5 +1,3 @@
-
 # Aliases
 
 alias vi='vim'
-

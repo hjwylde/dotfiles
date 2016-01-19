@@ -1,4 +1,3 @@
-
 # Aliases
 
 alias be='bundle exec'
@@ -8,4 +7,3 @@ alias rd='be rails d'
 alias rr='be rails r'
 alias rs='be rails s'
 alias r='be rake'
-

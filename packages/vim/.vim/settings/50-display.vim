@@ -1,4 +1,3 @@
-
 " Style settings
 
 set relativenumber
@@ -34,4 +33,3 @@ set sidescrolloff=16
 " Scroll the viewport by 5 lines at a time not 1
 nnoremap <C-e> 5<C-e>
 nnoremap <C-y> 5<C-y>
-

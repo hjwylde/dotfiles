@@ -1,4 +1,3 @@
-
 # Environment variables for Haskell
 
 # .local/bin is created by `stack'
@@ -7,4 +6,3 @@ if [[ $PATH != *".local/bin"* ]]; then
 fi
 
 export STACK_LOCK=true
-

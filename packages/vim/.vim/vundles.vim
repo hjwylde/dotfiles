@@ -1,4 +1,3 @@
-
 set rtp+=~/.vim/bundle/vundle.vim
 
 filetype off
@@ -14,4 +13,3 @@ endfor
 call vundle#end()
 
 filetype plugin indent on
-

@@ -1,4 +1,3 @@
-
 # Aliases for abra
 
 # Binaries
@@ -10,4 +9,3 @@ alias rm='rm -Iv'
 # Copy / Paste
 alias c='xclip -selection c'
 alias v='xclip -o'
-

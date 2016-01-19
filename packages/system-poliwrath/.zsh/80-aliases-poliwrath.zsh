@@ -1,4 +1,3 @@
-
 # Aliases for poliwrath
 
 # Binaries
@@ -10,4 +9,3 @@ alias rm='rm -Iv'
 alias gps='cd ~/git/powerapps/powershop'
 alias nz='export PS_MARKET=nz'
 alias au='export PS_MARKET=au'
-

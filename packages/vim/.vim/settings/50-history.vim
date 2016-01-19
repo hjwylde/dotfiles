@@ -1,4 +1,3 @@
-
 " History settings
 
 set history=1000
@@ -10,4 +9,3 @@ set undofile
 
 set noswapfile
 set nowritebackup
-

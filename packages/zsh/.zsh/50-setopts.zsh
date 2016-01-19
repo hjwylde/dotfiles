@@ -1,4 +1,3 @@
-
 # Options
 
 setopt CORRECT # Try to correct misspelt commands
@@ -10,4 +9,3 @@ setopt AUTO_PUSHD # Have cd's push directories to the directory stack
 setopt PUSHD_SILENT
 setopt PUSHD_IGNORE_DUPS
 setopt PUSHDMINUS
-
