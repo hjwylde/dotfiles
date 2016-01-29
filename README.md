@@ -6,6 +6,33 @@ The dotfiles are structured into _packages_ that may be installed using
     [stow](http://www.gnu.org/software/stow/ "stow").
 
 The packages named after Pokémon represent system-specific dotfiles.
-An initialisation script is provided, `setup` which installs the `system-pokémon`, `git`, `vim` and
-    `zsh` packages.
 
+### Installing
+
+Ensure `stow` and `git` are installed and then run the following:
+```bash
+git clone git@github.com:hjwylde/dotfiles && cd dotfiles
+./setup
+```
+
+This sets up the default '.stowrc' config file and stows the system, 'git', 'vim' and 'zsh'
+    packages.
+To install other packages run `stow PACKAGE` manually.
+
+### System packages
+
+* system-abra
+* system-electabuzz
+* system-poliwrath
+* system-snorlax
+
+### Packages
+
+* git
+* go
+* gradle
+* haskell
+* qux
+* ruby
+* vim
+* zsh
