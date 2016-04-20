@@ -2,8 +2,9 @@
 *.swo
 *.swp
 
+.env
+
 # JetBrains IDE's
 .idea/
 
 *.iml
-

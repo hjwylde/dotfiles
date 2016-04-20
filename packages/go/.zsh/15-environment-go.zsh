@@ -1,4 +1,4 @@
 # Environment variables for Go
 
-export GOPATH=~/.go
+export GOPATH=~/go
 export PATH=$PATH:$GOPATH/bin
