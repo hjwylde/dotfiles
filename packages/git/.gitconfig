@@ -22,6 +22,7 @@
     l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     me          = log --author='Henry J. Wylde' --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     s           = status -s
+    todo        = grep 'TODO (hjw)'
     uncommit    = reset --soft HEAD^
     unstage     = reset HEAD
 
