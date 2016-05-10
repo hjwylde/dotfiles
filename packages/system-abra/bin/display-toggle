@@ -11,4 +11,3 @@ if (xrandr | grep "$EXT connected $EXT_MODE" ) || ( xrandr | grep "$EXT disconne
 else
     xrandr --output $IN --mode 1920x1080 --primary --output $EXT --mode $EXT_MODE --right-of $IN
 fi
-

@@ -93,4 +93,3 @@ network.http.max_open.set = 128
 
 # Don't pre-allocate file sizes
 system.file_allocate.set = no
-
