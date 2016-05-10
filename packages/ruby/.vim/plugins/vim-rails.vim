@@ -1,2 +1,2 @@
 " Provides useful Rails tools
-Bundle 'tpope/vim-rails'
+Plug 'tpope/vim-rails'

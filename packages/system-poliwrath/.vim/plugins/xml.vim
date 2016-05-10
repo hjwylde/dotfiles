@@ -1,2 +1,2 @@
 " Provides XML completion
-Bundle 'othree/xml.vim'
+Plug 'othree/xml.vim'

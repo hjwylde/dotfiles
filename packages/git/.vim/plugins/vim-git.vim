@@ -1,2 +1,2 @@
 " Provides Git runtime files
-Bundle 'tpope/vim-git'
+Plug 'tpope/vim-git'

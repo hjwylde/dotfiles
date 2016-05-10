@@ -1,2 +1,2 @@
 " Provides useful Ruby tools
-Bundle 'vim-ruby/vim-ruby'
+Plug 'vim-ruby/vim-ruby'

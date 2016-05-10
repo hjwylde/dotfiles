@@ -1,5 +1,3 @@
-let settings_dir = '~/.vim/settings/'
-
-for file in split(globpath(settings_dir, '*.vim'), '\n')
+for file in split(globpath('~/.vim/settings/', '*.vim'), '\n')
     exe 'source' file
 endfor
