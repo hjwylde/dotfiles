@@ -1,7 +1,7 @@
 # Environment variables
 
 if [[ $PATH != *"$HOME/bin"* ]]; then
-    export PATH=$PATH:$HOME/bin
+    export PATH=$HOME/bin:$PATH
 fi
 
 export EDITOR=vim
