@@ -1,21 +1,5 @@
-[user]
-    name = Henry J. Wylde
-    email = public@hjwylde.com
-    signingkey = 20EBA79A
-
-[core]
-    excludesFile = ~/.gitignore-global
-
-[push]
-    default = simple
-
-[merge]
-    tool = vimdiff
-
-[diff]
-    algorithm = minimal
-
 [alias]
+    count       = shortlog -s -n
     gl          = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     last        = diff HEAD~1 HEAD
@@ -26,7 +10,19 @@
     uncommit    = reset --soft HEAD^
     unstage     = reset HEAD
 
-[filter "lfs"]
-    clean = git-lfs clean %f
-    smudge = git-lfs smudge %f
-    required = true
+[core]
+    excludesFile = ~/.gitignore-global
+
+[diff]
+    algorithm = minimal
+
+[merge]
+    tool = vimdiff
+
+[push]
+    default = simple
+
+[user]
+    name = Henry J. Wylde
+    email = public@hjwylde.com
+    signingkey = 20EBA79A
