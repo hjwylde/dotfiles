@@ -6,7 +6,7 @@ set visualbell
 set ruler
 
 " Scrolling settings
-set scrolloff=8
+set scrolloff=1000
 set sidescrolloff=16
 
 " Scroll the viewport by 5 lines at a time

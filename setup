@@ -20,4 +20,3 @@ if [ -d "$dir/system-$host" ]; then
 fi
 
 stow git vim zsh
-

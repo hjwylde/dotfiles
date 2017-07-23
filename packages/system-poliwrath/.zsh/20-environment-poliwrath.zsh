@@ -4,6 +4,10 @@ if [[ $PATH != *"$(brew --prefix coreutils)/libexec/gnubin"* ]]; then
     export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 fi
 
+if [[ $PATH != *"/Users/hjwylde/Library/Android/sdk/platform-tools"* ]]; then
+    export PATH=$PATH:/Users/hjwylde/Library/Android/sdk/platform-tools
+fi
+
 if [[ $PATH != *"/usr/local/bin"* ]]; then
     export PATH=$PATH:/usr/local/bin
 fi
