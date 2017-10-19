@@ -4,6 +4,19 @@
 set relativenumber
 set textwidth=100
 
+" Statusline settings
+set statusline=
+set statusline+=%f
+set statusline+=%=
+set statusline+=%v:%l/%L
+set statusline+=\ 
+set statusline+=%y
+set statusline+=\ 
+set statusline+=[%{(&fenc!=''?&fenc:&enc)}]
+set statusline+=\ 
+set statusline+=[%{&ff}]
+set laststatus=2
+
 " Highlight the 101th character
 :2mat ErrorMsg '\%101v.'
 
