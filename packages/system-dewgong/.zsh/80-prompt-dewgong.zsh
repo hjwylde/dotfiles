@@ -1,4 +1,4 @@
-# Prompt for poliwrath
+# Prompt for dewgong
 
 # Perform function / command substitutions in the prompt
 setopt PROMPT_SUBST

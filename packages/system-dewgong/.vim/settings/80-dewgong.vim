@@ -1,4 +1,4 @@
-" Settings for poliwrath
+" Settings for dewgong
 
 let g:solarized_termcolors = 256
 colorscheme solarized
