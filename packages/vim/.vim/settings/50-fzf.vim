@@ -1,3 +1,3 @@
 " FZF settings
 
-nmap <leader>f :FZF<CR>
+noremap <leader>f :FZF<CR>
