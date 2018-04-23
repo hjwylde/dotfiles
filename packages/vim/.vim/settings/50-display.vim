@@ -1,7 +1,6 @@
 " Style settings
 
 " General settings
-set relativenumber
 set textwidth=100
 
 " Statusline settings

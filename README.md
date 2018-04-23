@@ -28,6 +28,7 @@ To install other packages run `stow PACKAGE` manually.
 ### Packages
 
 * git
+* go
 * haskell
 * qux
 * ruby

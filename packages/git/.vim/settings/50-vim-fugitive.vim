@@ -1,4 +1,4 @@
-" vim-git settings
+" vim-fugitive settings
 
 autocmd QuickFixCmdPost *grep* cwindow
 
