@@ -2,10 +2,8 @@
     count       = shortlog -s -n
     gl          = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
-    last        = diff HEAD~1 HEAD
-    me          = !git l --author='Henry J. Wylde'
     s           = status -s
-    staged      = diff --cached
+    staged      = diff --staged
     todo        = grep 'TODO (hjw)'
     uncommit    = reset --soft HEAD^
     unstage     = reset HEAD
@@ -15,6 +13,7 @@
 
 [diff]
     algorithm = minimal
+    renameLimit = 1000
 
 [merge]
     tool = vimdiff
