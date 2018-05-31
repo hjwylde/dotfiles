@@ -21,9 +21,7 @@ To install other packages run `stow PACKAGE` manually.
 
 ### System packages
 
-* system-abra
 * system-dewgong
-* system-snorlax
 
 ### Packages
 
