@@ -1,4 +1,4 @@
-# Prompt for dewgong
+# Prompt for the system
 
 # Perform function / command substitutions in the prompt
 setopt PROMPT_SUBST
@@ -31,7 +31,7 @@ function prompt_precmd_update() {
 
 # Updates the prompt
 function prompt_update() {
-    left="[%*] %{$fg_bold[black]%}%n%{$reset_color%}@%{$fg[magenta]%}%m%{$reset_color%}"
+    left="[%*] %{$fg_bold[black]%}%n%{$reset_color%}@%{$fg[cyan]%}%m%{$reset_color%}"
     middle=''
     right='> '
 

@@ -1,10 +1,8 @@
 [alias]
     count       = shortlog -s -n
-    gl          = log --graph --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
     s           = status -s
     staged      = diff --staged
-    todo        = grep 'TODO (hjw)'
     uncommit    = reset --soft HEAD^
     unstage     = reset HEAD
 
@@ -15,11 +13,17 @@
     algorithm = minimal
     renameLimit = 1000
 
+[init]
+    defaultBranch = main
+
 [merge]
     tool = vimdiff
 
 [push]
     default = simple
+
+[rebase]
+    autosquash = true
 
 [user]
     name = Henry J. Wylde

@@ -7,7 +7,7 @@ if which -s scutil; then
 elif [ -f /etc/hostname ]; then
     host=$(cat /etc/hostname)
 else
-    echo "Uh oh, I don't know what hostname to use" >&2
+    echo "Cannot determine the hostname" >&2
     exit 1
 fi
 

@@ -16,13 +16,11 @@ set statusline+=\
 set statusline+=[%{&ff}]
 set laststatus=2
 
-" Highlight the 101th character
-:2mat ErrorMsg '\%101v.'
+" Highlight the 121th character
+:2mat ErrorMsg '\%121v.'
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
-
-syntax on
 
 " Colour scheme settings
 set background=light
@@ -32,8 +30,8 @@ colorscheme solarized
 set autoindent
 set smartindent
 set smarttab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 set expandtab
 set shiftround
