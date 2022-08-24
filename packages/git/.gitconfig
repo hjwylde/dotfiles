@@ -1,31 +1,30 @@
 [alias]
-    count       = shortlog -s -n
-    l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
-    s           = status -s
-    staged      = diff --staged
-    uncommit    = reset --soft HEAD^
-    unstage     = reset HEAD
-
+	count       = shortlog -s -n
+	l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
+	s           = status -s
+	staged      = diff --staged
+	uncommit    = reset --soft HEAD^
+	unstage     = reset HEAD
 [core]
-    excludesFile = ~/.gitignore-global
-
+	excludesFile = ~/.gitignore-global
 [diff]
-    algorithm = minimal
-    renameLimit = 1000
-
+	algorithm = minimal
+	renameLimit = 1000
 [init]
-    defaultBranch = main
-
+	defaultBranch = main
+[maintenance]
+	repo = /Users/hjwylde/Git/jetbrains/intellij
 [merge]
-    tool = vimdiff
-
+	tool = vimdiff
 [push]
-    default = simple
-
+	default = simple
 [rebase]
-    autosquash = true
-
+	autosquash = true
+[scalar]
+	repo = /Users/hjwylde/Git/jetbrains/intellij
 [user]
-    name = Henry J. Wylde
-    email = hjwylde@gmail.com
-    signingkey = 20EBA79A
+	name = Henry J. Wylde
+	email = hjwylde@gmail.com
+	signingkey = 20EBA79A
+[includeIf "gitdir:~/Git/"]
+	path = ~/Git/.gitconfig
