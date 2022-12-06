@@ -1,10 +1,9 @@
+[advice]
+	addEmptyPathspec = false
 [alias]
-	count       = shortlog -s -n
 	l           = log --date=short --pretty=format:'%C(yellow)%h %C(blue)%ad%Creset %C(bold)%<(80,trunc)%s%Creset %C(blue)%<(15,trunc)%an %C(red)%d'
 	s           = status -s
-	staged      = diff --staged
 	uncommit    = reset --soft HEAD^
-	unstage     = reset HEAD
 [core]
 	excludesFile = ~/.gitignore-global
 [diff]
